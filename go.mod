@@ -1,9 +1,10 @@
-module github.com/ServiceWeaver/weaver-kube
+module github.com/jklq/weaver-kube
 
 go 1.21
 
 require (
 	github.com/ServiceWeaver/weaver v0.24.2
+	github.com/ServiceWeaver/weaver-kube v0.23.2
 	github.com/google/uuid v1.3.1
 	go.opentelemetry.io/otel v1.19.0
 	go.opentelemetry.io/otel/exporters/jaeger v1.17.0
